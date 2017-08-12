@@ -150,11 +150,11 @@
         </div>
         <div class="black2">
            <div class="links">
-                    
+
+                    <a href="http://www.thefinalimage.com/">Home</a>
                     <a href="http://www.thefinalimage.com/about%20us">About Us</a>
                     <a href="https://github.com/jaygriggs?tab=overview&from=2017-08-01&to=2017-08-09">GitHub</a>
                     <a href="http://www.thefinalimage.com/list">Our Images</a>
-                    <a href="http://www.thefinalimage.com/add">Add Images</a>
                     <a href="http://www.thefinalimage.com/API">API</a>
 
                 </div>
