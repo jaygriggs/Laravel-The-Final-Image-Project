@@ -21,18 +21,13 @@ Route::get('/about us', function () {
     return view('about%20us');
 });
 
+Route::get('API', function () {
+    return view('API');
+});
 
 Route::get('list', 'PictureController@showPictureList');
 Route::get('pic/{id}', 'PictureController@showPicture');
 Route::get('add', 'PictureController@addPicture');
 Route::post('add', 'PictureController@savePicture');
-
-
-
-Route::get('list2', 'PictureController2@showPictureList2');
-Route::get('pic2/{id}', 'PictureController2@showPicture2');
-
-
-
-
-
+Route::get('api', 'apiController@showPictureapi');
+Route::get('pic2/{id}', 'apiController@showPicture2');

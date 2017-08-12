@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>About Us</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -68,6 +68,7 @@
             height:25vh;
             width:100%;
             margin-top:-25vh;
+            position: absolute;
             }
 
 
@@ -83,7 +84,24 @@
 
             .m-b-md {
                 margin-bottom: 30px;
+
             }
+
+            .links > a {
+                color: #FFF;
+                padding: 0 25px;
+                font-size: 12px;
+                font-weight: 600;
+                letter-spacing: .1rem;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+
+            .links {
+                text-align: center;
+                padding-top:12.5vh;
+            }
+
         </style>
     </head>
     <body>
@@ -117,7 +135,16 @@
 
         </div>
         <div class="black2">
-        </div">
+         <div class="links">
+                    
+                    <a href="http://www.thefinalimage.com/about%20us">About Us</a>
+                    <a href="https://github.com/jaygriggs?tab=overview&from=2017-08-01&to=2017-08-09">GitHub</a>
+                    <a href="http://www.thefinalimage.com/list">Our Images</a>
+                    <a href="http://www.thefinalimage.com/add">Add Images</a>
+                    <a href="http://www.thefinalimage.com/API">API</a>
+
+                </div>
+        </div>
     </body>
 </html>
 
