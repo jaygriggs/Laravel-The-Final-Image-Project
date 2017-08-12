@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>The Final Image</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -13,7 +13,12 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
+                
+                background-image: url("/images/pictures.png");
+                background-repeat: no-repeat;
+                background-position:fixed;
+                
+
                 color: #636b6f;
                 font-family: 'Raleway', sans-serif;
                 font-weight: 100;
@@ -43,11 +48,28 @@
 
             .content {
                 text-align: center;
+                width:100%;
+                background-color: #FFF;
+                padding:2vh;
             }
 
             .title {
                 font-size: 84px;
             }
+            
+            .black {
+            background-color: #000;
+            height:25vh;
+            width:100%;
+            }
+            
+            .black2 {
+            background-color: #000;
+            height:25vh;
+            width:100%;
+            margin-top:-25vh;
+            }
+
 
             .links > a {
                 color: #636b6f;
@@ -65,6 +87,7 @@
         </style>
     </head>
     <body>
+     <div class="black">
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -76,20 +99,27 @@
                     @endauth
                 </div>
             @endif
-
+           
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                 The Final Image
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    
+                    <a href="http://www.thefinalimage.com/about%20us">About Us</a>
+                    <a href="https://github.com/jaygriggs?tab=overview&from=2017-08-01&to=2017-08-09">GitHub</a>
+                    <a href="http://www.thefinalimage.com/list">Our Images</a>
+                    <a href="http://www.thefinalimage.com/add">Add Images</a>
+                    <a href="http://www.thefinalimage.com/API">API</a>
+
                 </div>
-            </div>
+                         
+                   </div>
+
+
         </div>
+        <div class="black2">
+        </div">
     </body>
 </html>
